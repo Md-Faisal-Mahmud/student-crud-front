@@ -1,6 +1,6 @@
 <!-- student.component.html -->
 
-<button routerLink="/add-student" class="add-student-button">Add Student</button>
+<button (click)="openAddStudentDialog()"  class="add-student-button">Add Student</button>
 
 <div class="mat-elevation-z8">
     <table mat-table [dataSource]="students" >

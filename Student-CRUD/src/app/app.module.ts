@@ -7,17 +7,23 @@ import { HttpClientModule } from '@angular/common/http';
 import { StudentComponent } from '../Components/student/student.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { MatTableModule } from '@angular/material/table';
+import { StudentDialogComponent } from '../Components/student-dialog/student-dialog.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StudentComponent
+    StudentComponent,
+    StudentDialogComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     MatTableModule,
+    ReactiveFormsModule,
+    MatDialogModule
     
   ],
   providers: [
