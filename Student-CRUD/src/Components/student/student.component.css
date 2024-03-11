@@ -1,0 +1,27 @@
+.add-student-button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+
+  }
+
+.mat-elevation-z8 {
+    margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+mat-table {
+  width: 100%;
+}
+
+th.mat-header-cell,
+td.mat-cell {
+  padding: 10px;
+  text-align: left;
+}
